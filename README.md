@@ -1,0 +1,1 @@
+make push TOKEN=your_gh_token
