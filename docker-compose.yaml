@@ -1,0 +1,10 @@
+# Test this thing actually builds and works
+version: "3.8"
+services:
+  dev_host:
+    build: .
+    container_name: "pyenv_dev_env"
+    ports:
+      - "7777:8000"
+      - "2222:22"
+    tty: true
